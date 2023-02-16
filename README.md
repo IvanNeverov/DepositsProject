@@ -1,10 +1,10 @@
 # DepositsProject
 Учебный проект, практический курс Райф2023
 ## Задача
-Задача классификации: прогноз - откроет ли клиент депозит на предложенных ему условиях
+Задача классификации: прогноз - откроет ли клиент депозит на предложенных ему условиях /n
 Целевая переменная: Открытие вклада (0/1)
 ## Данные
-### Данные о клиенте
+### Данные о клиенте:
 age (numeric): количество полных лет
 job : тип занимаемой должности (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
 marital : семейное положение (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
@@ -12,7 +12,7 @@ education (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illitera
 default: имеется ли любой вид кредитования? (categorical: 'no','yes','unknown')
 housing: имеется ли ипотека? (categorical: 'no','yes','unknown')
 loan: имеется ли персональный кредит? (categorical: 'no','yes','unknown')
-### Данные о прошлом контакте в рамках текущей компании
+### Данные о прошлом контакте в рамках текущей компании:
 contact: вид контакта с клиентом (categorical: 'cellular','telephone') 
 month: в каком месяце было сделано предыдущее предложение (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
 day_of_week: день недели было предыдущее предложение (categorical: 'mon','tue','wed','thu','fri')
